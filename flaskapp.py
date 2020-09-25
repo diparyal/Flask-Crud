@@ -1,21 +1,6 @@
 from flask import Flask, render_template, request, redirect, flash, url_for
 import mysql.connector
 
-# mydb = mysql.connector.connect(
-#     host="localhost",
-#     port="3309",
-#     user="root",
-#     passwd="root",
-#     database="crud_project"
-#  )
-
-
-# mydb = mysql.connector.connect(
-#     host="localhost",
-#     user= 'root',
-#     passwd = 'password',
-#     database="crud_project"
-#  )
 
 mydb = mysql.connector.connect(
     host="dbv1.cyk5ecfhsokq.us-east-1.rds.amazonaws.com",
